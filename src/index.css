@@ -67,3 +67,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.w-500px {
+  @apply w-[500px] p-5 text-green-800
+}
+
+.box-common {
+  @apply h-24 p-8 2xl:col-span-2 md:col-span-4 
+}

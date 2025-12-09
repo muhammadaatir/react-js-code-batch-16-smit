@@ -21,9 +21,9 @@ const Categories = () => {
   }
   useEffect(async () => {
     const data = await fetchData();
-    setTimeout(() => {
+    // setTimeout(() => {
       setValue(data)
-    }, 1000)
+    // }, 1000)
 
   }, [])
   console.log(value)
